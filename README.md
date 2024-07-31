@@ -10,3 +10,5 @@ docker exec -it nodegrp yarn encore dev --watch
 
 docker exec -it phpgrp php bin/console make:migration
 
+docker exec -it phpgrp php bin/console doctrine:migrations:migrate
+
